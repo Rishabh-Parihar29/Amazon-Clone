@@ -1,0 +1,435 @@
+*{
+	margin:0%;
+	font-family: Arial;
+	box-sizing: border-box;
+}
+
+.navbar{
+	height: 60px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	color: white;
+}
+
+.logo{
+	
+	background-image: url(amazon.png);
+	background-size: cover;
+	height: 32px;
+	width:97px;
+}
+
+.border{
+	border: 2px solid black;
+}
+
+.border:hover{
+	border: 2px solid white;
+}
+
+
+.add-first{
+	color: #CCCCCC;
+	font-size: 0.74rem;
+	margin-left: 15px;
+}
+
+.add-logo{
+	display: flex;
+
+}
+
+.add-second{
+	color: #FFFFFF;
+	margin-left: 3px;
+	font-weight: bold;
+	font-size: 0.90rem;
+}
+
+.nav-search{
+	display: flex;
+	width:802px;
+	height: 40px;
+	justify-content: space-evenly;
+	border-style: none;
+
+}
+.nav-search:hover{
+
+ box-shadow: 1px 1px 5px 4px orange;
+ border-radius: 5px;
+
+
+}
+
+.search-select{
+	background-color: #f3f3f3;
+	border: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	width: 70px;
+	text-align: center;
+}
+
+.search-input{
+	width: 100%;
+	border: none;
+	font-size: 15px;
+}
+
+.search-icon{
+	width: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
+	background-color: #febd68;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.nav-country{
+	width: 55px;
+	height: 55px;
+	background-image: url(country.png);
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+
+
+span{
+ font-size: 0.72rem;
+ color: white;
+}
+
+.same{
+	font-weight: bold;
+	 color: white;
+	 font-size: 0.90rem;
+}
+
+.nav-cart i{
+	font-size: 30px;
+}
+
+.nav-cart{
+	font-size: 0.85rem;
+	font-weight: bold;
+}
+
+.pannel{
+	height: 40px;
+	background-color: #222f3d;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.pannel-option p{
+	display: inline;
+	margin-left: 10px;
+}
+
+.pannel-option{
+	width: 93%;
+	font-size:0.85rem;
+}
+
+.All-Menu{
+	font-weight: bold;
+}
+
+.hero-section{
+	background-image: url(big_photo.jpg);
+	background-size: cover;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-msg{
+	background-color: white;
+	color: black;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:97%;
+	font-size:0.87rem;
+	position: relative;
+	bottom: 30px;
+}
+
+.hero-msg a{
+	text-decoration: none;
+	color: #007185;
+}
+.shop-section{
+	height:  640px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #e2e7e6;
+	flex-wrap: wrap;
+	
+}
+
+.box{
+	position: relative;
+	margin-top: 40px;
+	bottom: 330px;
+    width:23%;
+    height: 420px;
+    background-color: white;
+    transition: 0.4s ease-out; 
+
+}
+.box:hover{
+	transform: scale(1.1);
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px 7px;
+	z-index: 1;
+}
+
+.box h1{
+      font-size: 1.4rem;
+      position: relative;
+      top:20px;
+      left:20px;
+
+}
+
+.phone-ad{
+	width:300px;
+	height: 320px;
+	background-image: url("phone_ad.png");
+	background-size: cover;
+	position: relative;
+	top: 30px;
+	left:14px;
+}
+
+.sleeper-ad{
+	width:300px;
+	height: 320px;
+	background-image: url("sleeper_ad.png");
+	background-size: cover;
+	position: relative;
+	top: 30px;
+	left:14px;
+}
+
+.bucket-ad{
+	width:300px;
+	height: 320px;
+	background-image: url("bucket_ad.png");
+	background-size: cover;
+	position: relative;
+	top: 30px;
+	left:14px;
+}
+
+.bottle-ad{
+	width:300px;
+	height: 320px;
+	background-image: url("bottle_ad.png");
+	background-size: cover;
+	position: relative;
+	top: 30px;
+	left:14px;
+}
+.sunglass-ad{
+	width:300px;
+	height: 320px;
+	background-image: url("sunglass_ad.png");
+	background-size: cover;
+	position: relative;
+	top: 30px;
+	left:14px;
+}
+
+.torch-ad{
+	width:300px;
+	height: 320px;
+	background-image: url("torch_ad.png");
+	background-size: cover;
+	position: relative;
+	top: 30px;
+	left:14px;
+}
+
+.jhadu-ad{
+	width:300px;
+	height: 320px;
+	background-image: url("jhadu_ad.png");
+	background-size: cover;
+	position: relative;
+	top: 30px;
+	left:14px;
+}
+
+.cooker-ad{
+	width:300px;
+	height: 320px;
+	background-image: url("cooker_ad.png");
+	background-size: cover;
+	position: relative;
+	top: 30px;
+	left:14px;
+}
+
+.box a{
+	position: relative;
+	top:40px;
+	left:20px;
+	font-size:0.82rem;
+	color: #007185;
+	text-decoration: none;
+}
+
+.box a:hover{
+	color: orange;
+}
+
+.footer-pannel1{
+	background-color: #37475a;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-pannel1:hover{
+	background-color: #37475aeb;
+}
+.footer-pannel1 a{
+	color: white;
+	text-decoration: none;
+}
+
+.footer-pannel2{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #222f3d;
+	color: white;
+	height: 380px;
+}
+ul p{
+	padding-top: 50px;
+   font-size: 16px;
+   font-weight: bold;
+   margin-bottom: 14px;
+}
+
+ul a{
+	display: block;
+	color: white;
+	text-decoration: none;	
+	font-size: 0.87rem;
+	margin-bottom: 14px;
+	color: #dddddd;
+}
+
+.footer-pannel3{
+	background-color: #222f3d;
+	height:90px;
+	border-top: 1px solid #ffffff1f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #cccccc;
+}
+
+.logo2{
+    background-image: url(amazon.png);
+	background-size: cover;
+	height: 23px;
+	width:76px;
+	margin-right: 70px;
+}
+
+.language-select{
+	
+	display: flex;
+	border:1px solid #ffffff6e;
+	border-radius: 3px;
+	width: 116px;
+	height: 34px;
+	justify-content: center;
+	align-items: center;
+	margin-right: 7px;
+	
+}
+
+.currency-select{
+
+	display: flex;
+	border:1px solid #ffffff6e;
+	border-radius: 3px;
+	width: 187px;
+	height: 34px;
+	justify-content: center;
+	align-items: center;
+	margin-right: 7px;	
+}
+
+.country-select{
+
+	display: flex;
+	border:1px solid #ffffff6e;
+	border-radius: 3px;
+	width: 130px;
+	height: 34px;
+	justify-content: center;
+	align-items: center;	
+}
+
+.footer-pannel3-text{
+	font-size:0.83rem;
+}
+.footer-pannel3-icon{
+	position: relative;
+	right: 15px;
+	font-size:0.85rem;
+}
+.india-flag{
+	width: 25px;
+	height: 25px;
+	background-image: url(country.png);
+	background-size: cover;
+}
+
+.footer-pannel4{
+	background-color: black;
+	color: white;
+	font-size: 0.75rem;
+	height:77px;
+	padding: 20px 0px 30px;
+}
+
+.footer-pannel4-part1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.footer-pannel4-text{
+	display: inline;
+	padding: 0px 7.2px;
+}
+.copyright-amazon{
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+}
+
+
+
